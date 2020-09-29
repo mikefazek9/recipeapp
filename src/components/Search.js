@@ -4,8 +4,9 @@ import Recipe from "./Recipe";
 
 function Search() {
   // important! key and ID for api @ edamem
-  const apiKey = "131bb8f7026d23f08a8f8f57372a77b8";
-  const apiId = "3bb94269";
+  //EDIT FROM GITHUB. TOOK OUT API AND ID KEYS FOR SECURITY
+  const apiKey = "";
+  const apiId = "";
   // useState
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
